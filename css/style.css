@@ -224,7 +224,7 @@ p {
     display: flex;
 }
 
-#contact .map,
+#contact .map-img,
 #contact .contact-form {
     flex: 1;
 }
@@ -242,4 +242,8 @@ p {
     width: 100%;
     padding: 0.5rem;
     outline: none;
+}
+
+.map-img {
+    background: url("../images/placeholder-img-NY.JPG") no-repeat center center/cover;
 }
